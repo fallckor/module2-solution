@@ -1,0 +1,172 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+@media (min-width:992px) {
+    div > h1{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .container{
+        height: 200px;
+        display: flex;
+        margin-top: 50px;
+    }
+    .menu{
+        margin: 15px;
+        background-color: #999999;
+    }
+    .menu {
+        text-align: right;
+        
+    }
+    .menu span{
+        border: 1px solid black;
+    }
+    .chiquen{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #d59898;
+    }
+    .beef{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #c14543;
+    }
+    .sushi{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #e5d198;
+    }
+    .menu p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+    }   
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    div > h1{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .container{
+        height: 200px;
+        display: grid;
+        grid-template-areas: "menu-1 menu-2"
+                             "menu-3 menu-3";
+        margin-top: 50px;
+    }
+    .menu-1{
+        grid-area:menu-1;
+    }
+    .menu-2{
+        grid-area:menu-2;
+    }
+    .menu-3{
+        grid-area:menu-3;
+
+        height: 80px;
+    }
+    .menu{
+        margin: 15px;
+        background-color: #999999;
+    }
+    .menu {
+        text-align: right;
+        
+    }
+    .menu span{
+        border: 1px solid black;
+    }
+    .chiquen{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #d59898;
+        width:50%;
+        
+    }
+    .beef{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #c14543;
+        width:50%;
+        
+    }
+    .sushi{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #e5d198;
+        
+    }
+    .menu p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+    }   
+}
+
+@media (max-width:767px) {
+    div > h1{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .container{
+        height: 200px;
+        display: grid;
+        grid-template-areas: "menu-1 menu-1"
+                            "menu-2 menu-2"
+                             "menu-3 menu-3";
+        margin-top: 50px;
+    }
+    .menu-1{
+        grid-area:menu-1;
+    }
+    .menu-2{
+        grid-area:menu-2;
+    }
+    .menu-3{
+        grid-area:menu-3;
+
+        height: 80px;
+    }
+    .menu{
+        margin: 15px;
+        background-color: #999999;
+    }
+    .menu {
+        text-align: right;
+        
+    }
+    .menu span{
+        border: 1px solid black;
+    }
+    .chiquen{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #d59898;
+        width:50%;
+        
+    }
+    .beef{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #c14543;
+        width:50%;
+        
+    }
+    .sushi{
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #e5d198;
+        
+    }
+    .menu p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify;
+    }   
+}
